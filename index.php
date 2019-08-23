@@ -110,6 +110,20 @@
     
 
 </section></div>
+<?php
+ $ch = curl_init();
+
+curl_setopt($ch, CURLOPT_URL, 'http://securuscoin.org:14115/getinfo');
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+$info= curl_exec($ch);
+if (curl_errno($ch)) {
+    echo 'Error:' . curl_error($ch);
+}
+curl_close($ch);
+        $ok = json_decode($info);
+        $restblock = $ok->supported_height - $ok->height;
+        ?>
 
 <section class="mbr-section counters2 counters" id="counters2-4" data-rv-view="3" style="background-color: rgb(236, 240, 241); padding-top: 0px; padding-bottom: 0px;">
 
@@ -125,30 +139,30 @@
 
                 <div class="col-xl-3 col-md-6 col-xs-12 text-xs-center">
 
-                     <div class="count mbr-section-text">199795</div>
+                     <div class="count mbr-section-text"><?php echo $ok->height; ?></div>
                     <h3 class="mbr-section-subtitle display-3">block</h3>
 
                 </div>
 
                 <div class="col-xl-3 col-md-6 col-xs-12 text-xs-center">
                         
-                    <div class="count mbr-section-text">45.516</div>
+                    <div class="count mbr-section-text"><?php echo $ok->hashrate/1000; ?></div>
                     <h3 class="mbr-section-subtitle display-3">khash</h3>
                     
                 </div>
 
                 <div class="col-xl-3 col-md-6 col-xs-12 text-xs-center">
 
-                    <div class="count mbr-section-text">0.02</div>
-                    <h3 class="mbr-section-subtitle display-3">uSDT</h3>
+                    <div class="count mbr-section-text"><?php echo round($ok->difficulty/1000000,2); ?> M</div>
+                    <h3 class="mbr-section-subtitle display-3">diff</h3>
                     
                     
                 </div>
 
                 <div class="col-xl-3 col-md-6 col-xs-12 text-xs-center">
 
-                    <div class="count mbr-section-text">2.73</div>
-                    <h3 class="mbr-section-subtitle display-3">difficulty in millions</h3>
+                    <div class="count mbr-section-text"><?php echo $restblock; ?></div>
+                    <h3 class="mbr-section-subtitle display-3">next update in</h3>
                         
                 </div>
             </div>
@@ -445,7 +459,19 @@ You will not be able to spend or send your funds to other people until you set u
 
     <div class="mbr-overlay" style="opacity: 0.85; background-color: rgb(51, 51, 51);">
     </div>
+<?php 
+            $ch = curl_init();
 
+curl_setopt($ch, CURLOPT_URL, 'https://raw.githubusercontent.com/JOXW/develop/master/progress');
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+$info = curl_exec($ch);
+if (curl_errno($ch)) {
+    echo 'Error:' . curl_error($ch);
+}
+curl_close($ch);
+            $ok = json_decode($info,true);
+            ?>
 
     <div class="container-fluid">
         <div class="row">
@@ -459,13 +485,13 @@ You will not be able to spend or send your funds to other people until you set u
               <div class="col-lg-6 col-xs-12">
                 <div class="progress1">
 
-                  <p class="mbr-section-subtitle display-3">TITLE1</p>
+                  <p class="mbr-section-subtitle display-3"><?php echo $ok["dev"][0]["titel"]; ?></p>
                         
                   <div class="progressbar-wrap">
 
-                    <progress class="progress progress-primary" max="100" value="25">
+                    <progress class="progress progress-primary" max="100" value="<?php echo $ok["dev"][0]["amount"]; ?>">
                     </progress>
-                    <div class="progressbar-number" style="left: 25%;">25</div>
+                    <div class="progressbar-number" style="left: <?php echo $ok["dev"][0]["amount"]; ?>%;"><?php echo $ok["dev"][0]["amount"]; ?></div>
 
                   </div>
 
@@ -473,13 +499,13 @@ You will not be able to spend or send your funds to other people until you set u
 
                 <div class="progress2">
 
-                  <p class="mbr-section-subtitle display-3">TITEL2</p>
+                  <p class="mbr-section-subtitle display-3"><?php echo $ok["dev"][1]["titel"]; ?></p>
                         
                   <div class="progressbar-wrap">
 
-                    <progress class="progress progress-primary" max="100" value="45">
+                    <progress class="progress progress-primary" max="100" value="<?php echo $ok["dev"][1]["amount"]; ?>">
                     </progress>
-                    <div class="progressbar-number" style="left: 45%;">45</div>
+                    <div class="progressbar-number" style="left: <?php echo $ok["dev"][1]["amount"]; ?>%;"><?php echo $ok["dev"][1]["amount"]; ?></div>
 
                   </div>
                   
@@ -487,13 +513,13 @@ You will not be able to spend or send your funds to other people until you set u
 
                 <div class="progress3">
 
-                  <p class="mbr-section-subtitle display-3">TITEL3</p>
+                  <p class="mbr-section-subtitle display-3"><?php echo $ok["dev"][2]["titel"]; ?></p>
                         
                   <div class="progressbar-wrap">
 
-                    <progress class="progress progress-primary" max="100" value="65">
+                    <progress class="progress progress-primary" max="100" value="<?php echo $ok["dev"][2]["amount"]; ?>">
                     </progress>
-                    <div class="progressbar-number" style="left: 65%;">65</div>
+                    <div class="progressbar-number" style="left: <?php echo $ok["dev"][2]["amount"]; ?>%;"><?php echo $ok["dev"][2]["amount"]; ?></div>
 
                   </div>
                   
@@ -501,13 +527,13 @@ You will not be able to spend or send your funds to other people until you set u
 
                 <div class="progress4">
 
-                  <p class="mbr-section-subtitle display-3">TITEL4</p>
+                  <p class="mbr-section-subtitle display-3"><?php echo $ok["dev"][3]["titel"]; ?></p>
                         
                   <div class="progressbar-wrap">
 
-                    <progress class="progress progress-primary" max="100" value="85">
+                    <progress class="progress progress-primary" max="100" value="<?php echo $ok["dev"][3]["amount"]; ?>">
                     </progress>
-                    <div class="progressbar-number" style="left: 85%;">85</div>
+                    <div class="progressbar-number" style="left: <?php echo $ok["dev"][3]["amount"]; ?>%;"><?php echo $ok["dev"][3]["amount"]; ?></div>
 
                   </div>
                   
