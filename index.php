@@ -68,7 +68,7 @@
                         <span class="hamburger-icon"></span>
                     </button>
 
-                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">HOME</a></li><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">NEWS</a></li><li class="nav-item"><a class="nav-link link" href="http://explorer.securuscoin.org">BLOCKEXPLORER</a></li><li class="nav-item"><a class="nav-link link" href="pools.html">POOL</a></li><li class="nav-item"><a class="nav-link link" href="http://paper.securuscoin.org">PAPERWALLET</a></li><li class="nav-item"><a class="nav-link link" href="exchange.html">EXCHANGE</a></li><li class="nav-item dropdown open"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="true">DOWNLOADS</a><div class="dropdown-menu"><a class="dropdown-item" href="https://github.com/JOXW/securuscoin/releases" target="_blank">securus corefiles</a><a class="dropdown-item" href="https://github.com/JOXW/securus-wallet/releases" target="_blank">GUI wallet</a><a class="dropdown-item" href="http://www.securuscoin.org/av.exe" target="_blank">Aureum Victoria<br></a></div></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">HELP</a><div class="dropdown-menu"><a class="dropdown-item" href="tutorial.html">Tutorials</a><a class="dropdown-item" href="http://www.securuscoin.org">Wiki</a><a class="dropdown-item" href="http://map.securuscoin.org:8080/" target="_blank">Nodemap</a><a class="dropdown-item" href="developer.html">Team<br></a><a class="dropdown-item" href="http://www.securuscoin.org/paper.pdf" target="_blank">Whitepaper<br></a><a class="dropdown-item" href="aureumvictoria.html">Aureum Victoria</a></div></li></ul>
+                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">HOME</a></li><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">NEWS</a></li><li class="nav-item"><a class="nav-link link" href="http://explorer.securuscoin.org">BLOCKEXPLORER</a></li><li class="nav-item"><a class="nav-link link" href="pools.html">POOL</a></li><li class="nav-item"><a class="nav-link link" href="http://paper.securuscoin.org">PAPERWALLET</a></li><li class="nav-item"><a class="nav-link link" href="exchange.html">EXCHANGE</a></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">DOWNLOADS</a><div class="dropdown-menu"><a class="dropdown-item" href="https://github.com/JOXW/securuscoin/releases" target="_blank">securus corefiles</a><a class="dropdown-item" href="https://github.com/JOXW/securus-wallet/releases" target="_blank">GUI wallet</a><a class="dropdown-item" href="http://www.securuscoin.org/av.exe" target="_blank">Aureum Victoria<br></a></div></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">HELP</a><div class="dropdown-menu"><a class="dropdown-item" href="tutorial.html">Tutorials</a><a class="dropdown-item" href="http://www.securuscoin.org">Wiki</a><a class="dropdown-item" href="http://map.securuscoin.org:8080/" target="_blank">Nodemap</a><a class="dropdown-item" href="developer.html">Team<br></a><a class="dropdown-item" href="http://www.securuscoin.org/paper.pdf" target="_blank">Whitepaper<br></a><a class="dropdown-item" href="aureumvictoria.html">Aureum Victoria</a></div></li></ul>
                     <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
                         <span class="close-icon"></span>
                     </button>
@@ -94,9 +94,9 @@
 
                     
 
-                    <h1 class="mbr-section-title display-1 mbr-editable-content">SECURUS</h1>
+                    <h1 class="mbr-section-title display-1 mbr-editable-content" style="font-size: 48px;">SECURUS</h1>
 
-                    <div class="mbr-section-btn"><a class="btn btn-lg btn-danger mbr-editable-button" href="https://github.com/JOXW/securuscoin/releases" target="_blank"><span class="icon54-v1-network-add mbr-iconfont mbr-iconfont-btn" style="font-size: 37px;"></span>corefiles &amp; public node</a> <a class="btn btn-lg btn-danger mbr-editable-button" href="https://github.com/JOXW/securus-wallet/releases" target="_blank"><span class="imind-wallet-2 mbr-iconfont mbr-iconfont-btn" style="font-size: 37px;"></span>GUI WALLET</a> <a class="btn btn-lg btn-danger mbr-editable-button" href="exchange.html"><span class="icon54-v1-line-chart1 mbr-iconfont mbr-iconfont-btn" style="font-size: 36px;"></span>INVEST &amp; BUY SCR</a></div>
+                    <div class="mbr-section-btn"><a class="btn btn-lg btn-danger mbr-editable-button" href="https://github.com/JOXW/securuscoin/releases" target="_blank"><span class="icon54-v1-network-add mbr-iconfont mbr-iconfont-btn" style="font-size: 37px;"></span>corefiles</a> <a class="btn btn-lg btn-danger mbr-editable-button" href="https://github.com/JOXW/securus-wallet/releases" target="_blank"><span class="imind-wallet-2 mbr-iconfont mbr-iconfont-btn" style="font-size: 37px;"></span>GUI WALLET</a> <a class="btn btn-lg btn-danger mbr-editable-button" href="exchange.html"><span class="icon54-v1-line-chart1 mbr-iconfont mbr-iconfont-btn" style="font-size: 36px;"></span>INVEST &amp; BUY SCR</a></div>
 
                      <div class="mbr-figure image-size" style="width: 23%; font-size: 57.5px;"><img src="assets/images/coin-final-800x800.png"></div>
                     
@@ -123,6 +123,8 @@ if (curl_errno($ch)) {
 curl_close($ch);
         $ok = json_decode($info);
         $restblock = $ok->supported_height - $ok->height;
+		$tage = round($restblock / 60 / 24, 0);
+		
         ?>
 <section class="mbr-section counters2 counters" id="counters2-4" data-rv-view="3" style="background-color: rgb(236, 240, 241); padding-top: 40px; padding-bottom: 0px;">
 
@@ -152,22 +154,24 @@ curl_close($ch);
 
                 <div class="col-xl-3 col-md-6 col-xs-12 text-xs-center">
 
-                    <div class="count mbr-section-text"><?php echo round($ok->difficulty/1000000,2); ?> M</div>
-                    <h3 class="mbr-section-subtitle display-3">diff</h3>
+                    <div class="count mbr-section-text"><?php echo round($ok->difficulty/1000000,2); ?></div>
+                    <h3 class="mbr-section-subtitle display-3">diff M</h3>
                     
                     
                 </div>
 
                 <div class="col-xl-3 col-md-6 col-xs-12 text-xs-center">
 
-                    <div class="count mbr-section-text"><?php echo $restblock; ?></div>
-                    <h3 class="mbr-section-subtitle display-3">next update</h3>
+                    <div class="count mbr-section-text"><?php echo $tage; ?></div>
+                    <h3 class="mbr-section-subtitle display-3">fork days</h3>
                         
                 </div>
             </div>
 
         </div>
+		
     </div>
+	
 </section>
 
 <section class="mbr-section--bg-adapted mbr-section-full mbr-section--relative header9" id="header9-1" data-rv-view="6" style="background-color: rgb(255, 255, 255);">
