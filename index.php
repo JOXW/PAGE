@@ -13,18 +13,18 @@
   <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i">
-  <link rel="stylesheet" href="assets/icons-mind/style.css">
   <link rel="stylesheet" href="assets/icon54/style.css">
+  <link rel="stylesheet" href="assets/icons-mind/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i">
   <link rel="stylesheet" href="assets/bootstrap-material-design-font/css/material.css">
   <link rel="stylesheet" href="assets/et-line-font-plugin/style.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
-  <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/animate.css/animate.min.css">
+  <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/socicon.min.css">
   <link rel="stylesheet" href="assets/gdpr-plugin/gdpr-styles.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/socicon/css/socicon.min.css">
+  <link rel="stylesheet" href="assets/animate.css/animate.min.css">
   <link rel="stylesheet" href="assets/colorm-icons/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
@@ -48,7 +48,7 @@
 <!-- /Google Analytics -->
 
 
-  <section class="menu1" id="menu-0" data-rv-view="9">
+  <section class="menu1" id="menu-0" data-rv-view="75">
 
     <nav class="navbar navbar-dropdown navbar-fixed-top">
         <div class="container-fluid">
@@ -68,7 +68,7 @@
                         <span class="hamburger-icon"></span>
                     </button>
 
-                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">NEWS</a></li><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">BLOCKEXPLORER</a></li><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">POOL</a></li><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">PAPERWALLET</a></li><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">EXCHANGE</a></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">DOWNLOADS</a><div class="dropdown-menu"><a class="dropdown-item" href="#">securus corefiles</a><a class="dropdown-item" href="http://www.securuscoin.org">GUI wallet</a><a class="dropdown-item" href="http://www.securuscoin.org">Aureum Victoria<br></a><div class="dropdown"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">exchanges</a><div class="dropdown-menu dropdown-submenu"><a class="dropdown-item" href="#">Image/content slider</a><a class="dropdown-item" href="#">Contact forms</a><a class="dropdown-item" href="#">Image gallery</a><a class="dropdown-item" href="#">Mobile menu</a><a class="dropdown-item" href="#">Google maps</a><a class="dropdown-item" href="#">Social buttons</a><a class="dropdown-item" href="#">Google fonts</a><a class="dropdown-item" href="#">Video background</a></div></div></div></li><li class="nav-item dropdown open"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="true">TOOLS</a><div class="dropdown-menu"><a class="dropdown-item" href="http://securuscoin.org">Forum</a><a class="dropdown-item" href="tutorial.html">Tutorials</a><a class="dropdown-item" href="http://www.securuscoin.org">Contact us</a><a class="dropdown-item" href="http://www.securuscoin.org">Wiki</a></div></li></ul>
+                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">HOME</a></li><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">NEWS</a></li><li class="nav-item"><a class="nav-link link" href="http://explorer.securuscoin.org">BLOCKEXPLORER</a></li><li class="nav-item"><a class="nav-link link" href="page5.html">POOL</a></li><li class="nav-item"><a class="nav-link link" href="http://paper.securuscoin.org">PAPERWALLET</a></li><li class="nav-item"><a class="nav-link link" href="page4.html">EXCHANGE</a></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">DOWNLOADS</a><div class="dropdown-menu"><a class="dropdown-item" href="#">securus corefiles</a><a class="dropdown-item" href="https://github.com/JOXW/securus-wallet/releases" target="_blank">GUI wallet</a><a class="dropdown-item" href="http://www.securuscoin.org">Aureum Victoria<br></a></div></li><li class="nav-item dropdown open"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="true">HELP</a><div class="dropdown-menu"><a class="dropdown-item" href="tutorial.html">Tutorials</a><a class="dropdown-item" href="http://www.securuscoin.org">Wiki</a><a class="dropdown-item" href="http://www.securuscoin.org">Aureum Victoria</a></div></li></ul>
                     <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
                         <span class="close-icon"></span>
                     </button>
@@ -101,7 +101,7 @@
                      <div class="mbr-figure image-size" style="width: 23%; font-size: 57.5px;"><img src="assets/images/coin-final-800x800.png"></div>
                     
                     <a href="https://t.me/joinchat/IdDPoRQCFKsqd6shRpmOEA"><img src="https://www.shareicon.net/data/512x512/2015/09/16/102076_telegram_512x512.png" height="100" width="100"></a>
-		<a href="https://discord.gg/zzGzyC2"><img src="https://discordapp.com/assets/e7a3b51fdac2aa5ec71975d257d5c405.png" width="360" height="100"></a>
+		<a href="https://discord.gg/zzGzyC2"><img src="https://discordapp.com/assets/e7a3b51fdac2aa5ec71975d257d5c405.png" width="360" height="100"></a><br><br>
                 </div>
             </div>
         </div>
@@ -124,8 +124,8 @@ curl_close($ch);
         $ok = json_decode($info);
         $restblock = $ok->supported_height - $ok->height;
         ?>
-
-<section class="mbr-section counters2 counters" id="counters2-4" data-rv-view="3" style="background-color: rgb(236, 240, 241); padding-top: 0px; padding-bottom: 0px;">
+		
+<section class="mbr-section counters2 counters" id="counters2-4" data-rv-view="69" style="background-color: rgb(236, 240, 241); padding-top: 40px; padding-bottom: 0px;">
 
     
 
@@ -162,7 +162,7 @@ curl_close($ch);
                 <div class="col-xl-3 col-md-6 col-xs-12 text-xs-center">
 
                     <div class="count mbr-section-text"><?php echo $restblock; ?></div>
-                    <h3 class="mbr-section-subtitle display-3">next update in</h3>
+                    <h3 class="mbr-section-subtitle display-3">next update</h3>
                         
                 </div>
             </div>
@@ -171,7 +171,7 @@ curl_close($ch);
     </div>
 </section>
 
-<section class="mbr-section--bg-adapted mbr-section-full mbr-section--relative header9" id="header9-1" data-rv-view="6" style="background-color: rgb(255, 255, 255);">
+<section class="mbr-section--bg-adapted mbr-section-full mbr-section--relative header9" id="header9-1" data-rv-view="72" style="background-color: rgb(255, 255, 255);">
     
     <div class="mbr-table-cell mbr-table-cell-vertical-middle elements-content position-relative">
         <div class="container-fluid">
@@ -363,7 +363,7 @@ You will not be able to spend or send your funds to other people until you set u
 
 </section>
 
-<section class="mbr-section mbr-section-hero features16" id="features16-c" data-rv-view="11" style="background-color: rgb(221, 221, 221); padding-top: 80px; padding-bottom: 80px;">
+<section class="mbr-section mbr-section-hero features16" id="features16-c" data-rv-view="77" style="background-color: rgb(221, 221, 221); padding-top: 80px; padding-bottom: 80px;">
 
     
 
@@ -455,7 +455,7 @@ You will not be able to spend or send your funds to other people until you set u
 
 </section>
 
-<section class="mbr-section progressbar progressbar1" id="progress-bar4-9" data-rv-view="14" style="background-image: url(assets/images/undraw-developer-activity-bv83.svg); padding-top: 80px; padding-bottom: 80px;">
+<section class="mbr-section progressbar progressbar1" id="progress-bar4-9" data-rv-view="80" style="background-image: url(assets/images/undraw-developer-activity-bv83.svg); padding-top: 80px; padding-bottom: 80px;">
 
     <div class="mbr-overlay" style="opacity: 0.85; background-color: rgb(51, 51, 51);">
     </div>
@@ -574,7 +574,7 @@ curl_close($ch);
   
 </div></div></div>
 
-<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer2-6" data-rv-view="18" style="background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
+<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer2-6" data-rv-view="84" style="background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
     
     <div class="container">
         <p class="text-xs-center lead"><a href="developer.html">(C) 2019 Securus&nbsp;Project</a></p>
@@ -585,9 +585,9 @@ curl_close($ch);
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/viewport-checker/jquery.viewportchecker.js"></script>
   <script src="assets/cookies-alert-plugin/cookies-alert-core.js"></script>
   <script src="assets/cookies-alert-plugin/cookies-alert-script.js"></script>
+  <script src="assets/viewport-checker/jquery.viewportchecker.js"></script>
   <script src="assets/smooth-scroll/smooth-scroll.js"></script>
   <script src="assets/jquery-mb-ytplayer/jquery.mb.ytplayer.min.js"></script>
   <script src="assets/dropdown/js/script.min.js"></script>
