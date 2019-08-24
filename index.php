@@ -19,12 +19,12 @@
   <link rel="stylesheet" href="assets/bootstrap-material-design-font/css/material.css">
   <link rel="stylesheet" href="assets/et-line-font-plugin/style.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
-  <link rel="stylesheet" href="assets/socicon/css/socicon.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/animate.css/animate.min.css">
   <link rel="stylesheet" href="assets/gdpr-plugin/gdpr-styles.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/animate.css/animate.min.css">
+  <link rel="stylesheet" href="assets/socicon/css/socicon.min.css">
   <link rel="stylesheet" href="assets/colorm-icons/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
@@ -48,7 +48,7 @@
 <!-- /Google Analytics -->
 
 
-  <section class="menu1" id="menu-0" data-rv-view="75">
+  <section class="menu1" id="menu-0" data-rv-view="9">
 
     <nav class="navbar navbar-dropdown navbar-fixed-top">
         <div class="container-fluid">
@@ -68,7 +68,7 @@
                         <span class="hamburger-icon"></span>
                     </button>
 
-                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">HOME</a></li><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">NEWS</a></li><li class="nav-item"><a class="nav-link link" href="http://explorer.securuscoin.org">BLOCKEXPLORER</a></li><li class="nav-item"><a class="nav-link link" href="page5.html">POOL</a></li><li class="nav-item"><a class="nav-link link" href="http://paper.securuscoin.org">PAPERWALLET</a></li><li class="nav-item"><a class="nav-link link" href="page4.html">EXCHANGE</a></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">DOWNLOADS</a><div class="dropdown-menu"><a class="dropdown-item" href="#">securus corefiles</a><a class="dropdown-item" href="https://github.com/JOXW/securus-wallet/releases" target="_blank">GUI wallet</a><a class="dropdown-item" href="http://www.securuscoin.org">Aureum Victoria<br></a></div></li><li class="nav-item dropdown open"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="true">HELP</a><div class="dropdown-menu"><a class="dropdown-item" href="tutorial.html">Tutorials</a><a class="dropdown-item" href="http://www.securuscoin.org">Wiki</a><a class="dropdown-item" href="http://www.securuscoin.org">Aureum Victoria</a></div></li></ul>
+                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">HOME</a></li><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">NEWS</a></li><li class="nav-item"><a class="nav-link link" href="http://explorer.securuscoin.org">BLOCKEXPLORER</a></li><li class="nav-item"><a class="nav-link link" href="pools.html">POOL</a></li><li class="nav-item"><a class="nav-link link" href="http://paper.securuscoin.org">PAPERWALLET</a></li><li class="nav-item"><a class="nav-link link" href="exchange.html">EXCHANGE</a></li><li class="nav-item dropdown open"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="true">DOWNLOADS</a><div class="dropdown-menu"><a class="dropdown-item" href="https://github.com/JOXW/securuscoin/releases" target="_blank">securus corefiles</a><a class="dropdown-item" href="https://github.com/JOXW/securus-wallet/releases" target="_blank">GUI wallet</a><a class="dropdown-item" href="http://www.securuscoin.org/av.exe" target="_blank">Aureum Victoria<br></a></div></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">HELP</a><div class="dropdown-menu"><a class="dropdown-item" href="tutorial.html">Tutorials</a><a class="dropdown-item" href="http://www.securuscoin.org">Wiki</a><a class="dropdown-item" href="http://map.securuscoin.org:8080/" target="_blank">Nodemap</a><a class="dropdown-item" href="developer.html">Team<br></a><a class="dropdown-item" href="http://www.securuscoin.org/paper.pdf" target="_blank">Whitepaper<br></a><a class="dropdown-item" href="aureumvictoria.html">Aureum Victoria</a></div></li></ul>
                     <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
                         <span class="close-icon"></span>
                     </button>
@@ -96,11 +96,11 @@
 
                     <h1 class="mbr-section-title display-1 mbr-editable-content">SECURUS</h1>
 
-                    <div class="mbr-section-btn"><a class="btn btn-lg btn-danger mbr-editable-button" href="https://github.com/JOXW/securuscoin/releases" target="_blank"><span class="icon54-v1-network-add mbr-iconfont mbr-iconfont-btn" style="font-size: 37px;"></span>corefiles &amp; public node</a> <a class="btn btn-lg btn-danger mbr-editable-button" href="https://github.com/JOXW/securus-wallet/releases" target="_blank"><span class="imind-wallet-2 mbr-iconfont mbr-iconfont-btn" style="font-size: 37px;"></span>GUI WALLET</a> <a class="btn btn-lg btn-danger mbr-editable-button" href="https://cratex.io/index.php?pair=SCR/BTC" target="_blank"><span class="icon54-v1-line-chart1 mbr-iconfont mbr-iconfont-btn" style="font-size: 36px;"></span>INVEST &amp; BUY SCR</a></div>
+                    <div class="mbr-section-btn"><a class="btn btn-lg btn-danger mbr-editable-button" href="https://github.com/JOXW/securuscoin/releases" target="_blank"><span class="icon54-v1-network-add mbr-iconfont mbr-iconfont-btn" style="font-size: 37px;"></span>corefiles &amp; public node</a> <a class="btn btn-lg btn-danger mbr-editable-button" href="https://github.com/JOXW/securus-wallet/releases" target="_blank"><span class="imind-wallet-2 mbr-iconfont mbr-iconfont-btn" style="font-size: 37px;"></span>GUI WALLET</a> <a class="btn btn-lg btn-danger mbr-editable-button" href="exchange.html"><span class="icon54-v1-line-chart1 mbr-iconfont mbr-iconfont-btn" style="font-size: 36px;"></span>INVEST &amp; BUY SCR</a></div>
 
                      <div class="mbr-figure image-size" style="width: 23%; font-size: 57.5px;"><img src="assets/images/coin-final-800x800.png"></div>
                     
-                    <a href="https://t.me/joinchat/IdDPoRQCFKsqd6shRpmOEA"><img src="https://www.shareicon.net/data/512x512/2015/09/16/102076_telegram_512x512.png" height="100" width="100"></a>
+                    <a href="https://t.me/joinchat/IdDPoRQCFKsqd6shRpmOEA"><img src="https://www.shareicon.net/data/512x512/2015/09/16/102076_telegram_512x512.png" height="65" width="65"></a>
 		<a href="https://discord.gg/zzGzyC2"><img src="https://discordapp.com/assets/e7a3b51fdac2aa5ec71975d257d5c405.png" width="360" height="100"></a><br><br>
                 </div>
             </div>
@@ -124,8 +124,7 @@ curl_close($ch);
         $ok = json_decode($info);
         $restblock = $ok->supported_height - $ok->height;
         ?>
-		
-<section class="mbr-section counters2 counters" id="counters2-4" data-rv-view="69" style="background-color: rgb(236, 240, 241); padding-top: 40px; padding-bottom: 0px;">
+<section class="mbr-section counters2 counters" id="counters2-4" data-rv-view="3" style="background-color: rgb(236, 240, 241); padding-top: 40px; padding-bottom: 0px;">
 
     
 
@@ -171,7 +170,7 @@ curl_close($ch);
     </div>
 </section>
 
-<section class="mbr-section--bg-adapted mbr-section-full mbr-section--relative header9" id="header9-1" data-rv-view="72" style="background-color: rgb(255, 255, 255);">
+<section class="mbr-section--bg-adapted mbr-section-full mbr-section--relative header9" id="header9-1" data-rv-view="6" style="background-color: rgb(255, 255, 255);">
     
     <div class="mbr-table-cell mbr-table-cell-vertical-middle elements-content position-relative">
         <div class="container-fluid">
@@ -192,7 +191,7 @@ curl_close($ch);
 
                     <div class="clearfix"></div>
                     
-                    <ul class="nav nav-tabs" role="tablist"><li class="nav-item" style="display: block;"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab1header9-1" aria-expanded="false">making a securus wallet</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab2header9-1" aria-expanded="true">mining securus</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab3header9-1" aria-expanded="false">miningpool</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab4header9-1" aria-expanded="false">PUBLIC NODE for FUN &amp; PROFIT</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab5header9-1" aria-expanded="true">GREAT INVESTment</a></li><li class="nav-item" style="display: none"><a class="nav-link" role="tab" data-toggle="tab" href="#tab6header9-1">Beautiful</a></li></ul>
+                    <ul class="nav nav-tabs" role="tablist"><li class="nav-item" style="display: block;"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab1header9-1" aria-expanded="false">making a securus wallet</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab2header9-1" aria-expanded="false">mining securus</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab3header9-1" aria-expanded="false">miningpool</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab4header9-1" aria-expanded="true">PUBLIC NODE for FUN &amp; PROFIT</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab5header9-1" aria-expanded="false">GREAT INVESTment</a></li><li class="nav-item" style="display: none"><a class="nav-link" role="tab" data-toggle="tab" href="#tab6header9-1">Beautiful</a></li></ul>
 
                 </div>
 
@@ -203,7 +202,7 @@ curl_close($ch);
 
                             <div class="row">
                                 <div class="col-xs-12 col-lg-5">
-                                    <div class="mbr-figure"><img src="assets/images/nb1.png" class="card-img-top"></div>
+                                    <div class="mbr-figure"><img src="assets/images/undraw-wallet-aym5.svg" class="card-img-top"></div>
                                 </div>
                                 <div class="col-xs-12 col-lg-6">
                                     <div>
@@ -229,7 +228,7 @@ You will not be able to spend or send your funds to other people until you set u
 
                             <div class="row">
                                 <div class="col-xs-12 col-lg-5">
-                                    <div class="mbr-figure"><img src="assets/images/nb2.png" class="card-img-top"></div>
+                                    <div class="mbr-figure"><img src="assets/images/undraw-maintenance-cn7j.svg" class="card-img-top"></div>
                                 </div>
                                 <div class="col-xs-12 col-lg-6">
                                     <div>
@@ -251,7 +250,7 @@ You will not be able to spend or send your funds to other people until you set u
 <br>Please follow this guide to start mining Securus with XMRig.
 <br>
 <br>Solo Mining
-<br>Solo Mining is where you, alone, try to solve a block. It is extremely difficult and not recommended. If you'd like to give it a hand try securusminer in corefiles<br><br></p>
+<br>Solo Mining is where you, alone, try to solve a block. It is extremely difficult and not recommended. If you'd like to give it a hand try <a href="https://github.com/JOXW/securuscoin/releases" target="_blank">securusminer in corefiles</a><br><br></p>
                                             </div>
                                         </div>
                                     </div>
@@ -264,7 +263,7 @@ You will not be able to spend or send your funds to other people until you set u
 
                             <div class="row">
                                 <div class="col-xs-12 col-lg-5">
-                                    <div class="mbr-figure"><img src="assets/images/nb3.png" class="card-img-top"></div>
+                                    <div class="mbr-figure"><img src="assets/images/undraw-fast-loading-0lbh.svg" class="card-img-top"></div>
                                 </div>
                                 <div class="col-xs-12 col-lg-6">
                                     <div>
@@ -288,7 +287,7 @@ You will not be able to spend or send your funds to other people until you set u
 
                             <div class="row">
                                 <div class="col-xs-12 col-lg-5">
-                                    <div class="mbr-figure"><img src="assets/images/nb4.png" class="card-img-top"></div>
+                                    <div class="mbr-figure"><img src="assets/images/undraw-connected-world-wuay.svg" class="card-img-top"></div>
                                 </div>
                                 <div class="col-xs-12 col-lg-6">
                                     <div>
@@ -298,7 +297,7 @@ You will not be able to spend or send your funds to other people until you set u
                                         <p class="mbr-section-subtitle lead description-title">PUBLICNODE / LOCAL DAEMON (SecurusCoind)</p>
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <p class="mbr-section-text lead">A public node, or public daemon is a computer that a user can connect to safely and sync their wallet without downloading the whole blockchain at home. The node operator  doesn’t know which wallet or who is connecting, and they also can’t see balances or passwords.<br>In the beginning, community members ran public nodes for free. This is a great thing to do for the community, but as with all things that are free, they do have a cost for someone, and can often be congested. Free nodes will still be allowed if someone wants to run one, but you can now set a per-transaction fee quite easily, for people who connect to your node. This guide will help you get a public node set up, and the fee is up to you.<br><br>Free nodes can sometimes be busy because they get lots of users connecting to them. Nodes that charge a fee can sometimes offer faster service because not many are willing to pay a fee to send a transaction. A free market is emerging to allow nodes to set their own prices and let the community use the nodes that fit best for them. Nobody can steal your password or use your information by running a public node, and you will not harm someone else if your node goes down. No worries!<br><br>What you'll need:<br>1. A computer with an IP address that doesn’t change. If you’re running it from home and use cable or DSL internet, you’re probably already set up with a static IP. (Free Amazon servers or Google Cloud servers are perfect for this) <br>2. A Securus wallet to collect your earnings.&nbsp;<br>3. (optional) to get listed the node in the GUI Wallet, you need 10000 SCR<br>contact developer and spend the coins to wallet below<br><strong>SCR1PahF4AN2DCBDE8MbFFTk6ABFiRe2nUNSP6gVhZANFfx2t6P5t8LKi7J2YkeaaJcR7jR4ZVKK2j88PtVmdAG18SwZKeLBUn</strong><br><br></p>
+                                                <p class="mbr-section-text lead">A public node, or public daemon is a computer that a user can connect to safely and sync their wallet without downloading the whole blockchain at home. The node operator  doesn’t know which wallet or who is connecting, and they also can’t see balances or passwords.<br>In the beginning, community members ran public nodes for free. This is a great thing to do for the community, but as with all things that are free, they do have a cost for someone, and can often be congested. Free nodes will still be allowed if someone wants to run one, but you can now set a per-transaction fee quite easily, for people who connect to your node. This guide will help you get a public node set up, and the fee is up to you.<br><br>Free nodes can sometimes be busy because they get lots of users connecting to them. Nodes that charge a fee can sometimes offer faster service because not many are willing to pay a fee to send a transaction. A free market is emerging to allow nodes to set their own prices and let the community use the nodes that fit best for them. Nobody can steal your password or use your information by running a public node, and you will not harm someone else if your node goes down. No worries!<br><br>What you'll need:<br>1. A computer with an IP address that doesn’t change. If you’re running it from home and use cable or DSL internet, you’re probably already set up with a static IP. (Free Amazon servers or Google Cloud servers are perfect for this) <br>2. A Securus wallet to collect your earnings.&nbsp;<br>3. (optional) to get listed the node in the GUI Wallet, you need 10000 SCR<br>contact developer and spend the coins to wallet below<br><strong>SCR1PahF4AN2DCBDE8MbFFTk6ABFiRe2nUNSP6gVhZANFfx2t6P</strong><br><strong>5t8LKi7J2YkeaaJcR7jR4ZVKK2j88PtVmdAG18SwZKeLBUn</strong><br><br></p>
                                             </div>
                                         </div>
                                     </div>
@@ -311,7 +310,7 @@ You will not be able to spend or send your funds to other people until you set u
 
                             <div class="row">
                                 <div class="col-xs-12 col-lg-5">
-                                    <div class="mbr-figure"><img src="assets/images/nb5.png" class="card-img-top"></div>
+                                    <div class="mbr-figure"><img src="assets/images/undraw-financial-data-es63-1.svg" class="card-img-top"></div>
                                 </div>
                                 <div class="col-xs-12 col-lg-6">
                                     <div>
@@ -363,7 +362,7 @@ You will not be able to spend or send your funds to other people until you set u
 
 </section>
 
-<section class="mbr-section mbr-section-hero features16" id="features16-c" data-rv-view="77" style="background-color: rgb(221, 221, 221); padding-top: 80px; padding-bottom: 80px;">
+<section class="mbr-section mbr-section-hero features16" id="features16-c" data-rv-view="11" style="background-color: rgb(221, 221, 221); padding-top: 80px; padding-bottom: 80px;">
 
     
 
@@ -455,7 +454,7 @@ You will not be able to spend or send your funds to other people until you set u
 
 </section>
 
-<section class="mbr-section progressbar progressbar1" id="progress-bar4-9" data-rv-view="80" style="background-image: url(assets/images/undraw-developer-activity-bv83.svg); padding-top: 80px; padding-bottom: 80px;">
+<section class="mbr-section progressbar progressbar1" id="progress-bar4-9" data-rv-view="14" style="background-image: url(assets/images/undraw-developer-activity-bv83.svg); padding-top: 80px; padding-bottom: 80px;">
 
     <div class="mbr-overlay" style="opacity: 0.85; background-color: rgb(51, 51, 51);">
     </div>
@@ -546,35 +545,7 @@ curl_close($ch);
 
 </section>
 
-<div id="custom-html-c">
-<div id="custom-html-j"><!-- Type valid HTML here -->
-
-<div> 
-    <p1 class="display-5">Thanks for support:</p1>;
-</div>
-    <div><strong>DEV Securus Wallet - development bounty and public node listing</strong> <br>
-      <img src="http://securuscoin.org/assets/images/coinlogo-800x800.png" height="40" width="40">
-    <p2 class="display-8">SCR1PahF4AN2DCBDE8MbFFTk6ABFiRe2nUNSP6gVhZANFfx2t6P5t8LKi7J2YkeaaJcR7jR4ZVKK2j88PtVmdAG18SwZKeLBUn</p2>
-    <br><br>
-    <strong>DEV new exchanges and marketing support - get a VIP rank in discord</strong> <br>
-    <img src="https://www.blockchaincenter.net/wp-content/uploads/logos/btc.png" height="40" width="40">
-    <p2 class="display-8">3AGjbLp5sxag7kD6Yk8kctNQxTgWH54mA3</p2>
-    <br><br>
-    
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Ethereum_logo.svg" height="40" width="40">
-    <p2 class="display-8">0x1c815a39c228c5fee0d9c4e60fb73e32b8776c42</p2>
-    <br><br>
-   <strong>DEV support</strong> <br>
-    
-    
-    <img src="https://static.coindesk.com/wp-content/uploads/2014/02/Litecoin-logo-e1517247177826.png" height="40" width="40">
-    <p2 class="display-8">LdHrYCi1XYbWzQY8dU99viLjV4ceUsporR</p2>
-    
-    
-  
-</div></div></div>
-
-<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer2-6" data-rv-view="84" style="background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
+<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer2-6" data-rv-view="17" style="background-color: rgb(50, 50, 50); padding-top: 1.75rem; padding-bottom: 1.75rem;">
     
     <div class="container">
         <p class="text-xs-center lead"><a href="developer.html">(C) 2019 Securus&nbsp;Project</a></p>
@@ -585,9 +556,9 @@ curl_close($ch);
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/viewport-checker/jquery.viewportchecker.js"></script>
   <script src="assets/cookies-alert-plugin/cookies-alert-core.js"></script>
   <script src="assets/cookies-alert-plugin/cookies-alert-script.js"></script>
-  <script src="assets/viewport-checker/jquery.viewportchecker.js"></script>
   <script src="assets/smooth-scroll/smooth-scroll.js"></script>
   <script src="assets/jquery-mb-ytplayer/jquery.mb.ytplayer.min.js"></script>
   <script src="assets/dropdown/js/script.min.js"></script>
