@@ -434,7 +434,7 @@ curl_close($ch);
 
                 <div class="progress4">
 
-                  <p class="mbr-section-subtitle display-3"><?php echo $ok["dev"][3]["titel"]; ?>/p>
+                  <p class="mbr-section-subtitle display-3"><?php echo $ok["dev"][3]["titel"]; ?></p>
                         
                   <div class="progressbar-wrap">
 
