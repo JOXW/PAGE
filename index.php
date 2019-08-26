@@ -109,7 +109,8 @@
     
 
 </section></div>
-<?php
+
+<div id="counters2-4"><?php
  $ch = curl_init();
 
 curl_setopt($ch, CURLOPT_URL, 'http://securuscoin.org:14115/getinfo');
@@ -124,7 +125,8 @@ curl_close($ch);
         $restblock = $ok->supported_height - $ok->height;
 		$tage = round($restblock / 60 / 24 ,0);
         ?>
-<section class="mbr-section counters2 counters" id="counters2-4" data-rv-view="1" style="background-color: rgb(236, 240, 241); padding-top: 40px; padding-bottom: 0px;">
+
+<section class="mbr-section counters2 counters mbr-after-navbar" data-rv-view="1" style="background-color: rgb(236, 240, 241); padding-top: 40px; padding-bottom: 0px;">
 
     
 
@@ -138,50 +140,50 @@ curl_close($ch);
 
                 <div class="col-xl-3 col-md-6 col-xs-12 text-xs-center">
 
-                     <div class="count mbr-section-text"><?php echo $ok->height; ?></div>
-                    <h3 class="mbr-section-subtitle display-3">block</h3>
+                     <div class="count mbr-section-text mbr-editable-content"><?php echo $ok->height; ?></div>
+                    <h3 class="mbr-section-subtitle display-3 mbr-editable-content">block</h3>
 
                 </div>
 
                 <div class="col-xl-3 col-md-6 col-xs-12 text-xs-center">
                         
-                    <div class="count mbr-section-text"><?php echo $ok->hashrate/1000; ?></div>
-                    <h3 class="mbr-section-subtitle display-3">khash</h3>
+                    <div class="count mbr-section-text mbr-editable-content"><?php echo $ok->hashrate/1000; ?></div>
+                    <h3 class="mbr-section-subtitle display-3 mbr-editable-content">khash</h3>
                     
                 </div>
 
                 <div class="col-xl-3 col-md-6 col-xs-12 text-xs-center">
 
-                    <div class="count mbr-section-text"><?php echo round($ok->difficulty/1000000,2); ?></div>
-                    <h3 class="mbr-section-subtitle display-3">diff M</h3>
+                    <div class="count mbr-section-text mbr-editable-content"><?php echo round($ok->difficulty/1000000,2); ?></div>
+                    <h3 class="mbr-section-subtitle display-3 mbr-editable-content">diff M</h3>
                     
                     
                 </div>
 
                 <div class="col-xl-3 col-md-6 col-xs-12 text-xs-center">
 
-                    <div class="count mbr-section-text"><?php echo $tage; ?></div>
-                    <h3 class="mbr-section-subtitle display-3">days to update</h3>
+                    <div class="count mbr-section-text mbr-editable-content"><?php echo $tage; ?></div>
+                    <h3 class="mbr-section-subtitle display-3 mbr-editable-content">days to update</h3>
                         
                 </div>
             </div>
 
         </div>
     </div>
-</section>
+</section></div>
 
-<section class="mbr-section--bg-adapted mbr-section-full mbr-section--relative header9" id="header9-1" data-rv-view="4" style="background-color: rgb(255, 255, 255);">
+<div id="header9-1"><section class="mbr-section--bg-adapted mbr-section-full mbr-section--relative header9 mbr-after-navbar" data-rv-view="4" style="background-color: rgb(255, 255, 255);">
     
     <div class="mbr-table-cell mbr-table-cell-vertical-middle elements-content position-relative">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center">
 
-                    <h1 class="mbr-section-title display-1"><br>What is Securus?</h1>
+                    <h1 class="mbr-section-title display-1 mbr-editable-content"><br>What is Securus?</h1>
 
-                    <p class="mbr-section-text lead header-text">Securus is a fast, easy and private cryptocurrency which allows you to send money to friends and businesses.
-<br>One of Securus goals is to make things as simple and as accessible as possible for everyday people, creating a cryptocurrency which is inviting, fun and friendly.
-<br>Below is essentially a checklist of tasks you have to do to get started with Securus.</p>
+                    <p class="mbr-section-text lead header-text mbr-editable-content">Securus is a fast, easy and private cryptocurrency which allows you to send money to friends and businesses.
+<br>One of Securus goals is to make things as simple and accessible as possible for everyday people, creating a cryptocurrency which is inviting, fun and friendly.
+<br>Below is basic checklist of tasks you have to do to get started with Securus.</p>
 
                 </div>
             </div>
@@ -191,7 +193,7 @@ curl_close($ch);
 
                     <div class="clearfix"></div>
                     
-                    <ul class="nav nav-tabs" role="tablist"><li class="nav-item" style="display: block;"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab1header9-1" aria-expanded="false">making a securus wallet</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab2header9-1" aria-expanded="false">mining securus</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab3header9-1" aria-expanded="false">miningpool</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab4header9-1" aria-expanded="false">PUBLIC NODE for FUN &amp; PROFIT</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab5header9-1" aria-expanded="true">GREAT INVESTment</a></li><li class="nav-item" style="display: none"><a class="nav-link" role="tab" data-toggle="tab" href="#tab6header9-1">Beautiful</a></li></ul>
+                    <ul class="nav nav-tabs mbr-editable-content" role="tablist"><li class="nav-item" style="display: block;"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab1header9-1" aria-expanded="false">making a securus wallet</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab2header9-1" aria-expanded="false">mining securus</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab3header9-1" aria-expanded="false">miningpool</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab4header9-1" aria-expanded="false">PUBLIC NODE for FUN &amp; PROFIT</a></li><li class="nav-item" style="display: block;"><a class="nav-link" role="tab" data-toggle="tab" href="#tab5header9-1" aria-expanded="true">GREAT INVESTment</a></li><li class="nav-item" style="display: none"><a class="nav-link" role="tab" data-toggle="tab" href="#tab6header9-1">Beautiful</a></li></ul>
 
                 </div>
 
@@ -209,13 +211,12 @@ curl_close($ch);
                                         <div class="mbr-figure icon-block"><a href="#" class="imind-wallet-2 mbr-iconfont mbr-iconfont-header5" style="color: rgb(230, 126, 34);"></a></div>
                                     </div>
                                     <div>
-                                        <p class="mbr-section-subtitle lead description-title">WALLET</p>
+                                        <p class="mbr-section-subtitle lead description-title mbr-editable-content">WALLET</p>
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <p class="mbr-section-text lead">There are multiple different types of wallets you can choose to use for Securus: paper wallets, CLI wallets, and GUI wallets.
+                                                <p class="mbr-section-text lead mbr-editable-content">There are multiple different types of wallets you can choose to use for Securus: paper wallets, CLI wallets, and GUI wallets.
 <br>We recommend making a paper wallet so that you can start receiving funds, and later import them into a GUI or CLI wallet.<br><br>The main purpose of a <a href="http://paper.securuscoin.org" target="_blank">paper wallet</a> is to quickly create a wallet to start receiving funds.
-You will not be able to spend or send your funds to other people until you set up a <a href="https://github.com/JOXW/securuscoin/releases" target="_blank">CLI</a> or <a href="https://github.com/JOXW/securus-wallet/releases" target="_blank">GUI Wallet</a>.
-<br>.<br></p>
+You will not be able to spend or send your funds to other people until you set up a <a href="https://github.com/JOXW/securuscoin/releases" target="_blank">CLI</a> or <a href="https://github.com/JOXW/securus-wallet/releases" target="_blank">GUI Wallet</a>.<br></p>
                                             </div>
                                         </div>
                                     </div>
@@ -235,11 +236,12 @@ You will not be able to spend or send your funds to other people until you set u
                                         <div class="mbr-figure icon-block"><a href="#" class="fa fa-microchip mbr-iconfont mbr-iconfont-header5" style="color: rgb(230, 126, 34);"></a></div>
                                     </div>
                                     <div>
-                                        <p class="mbr-section-subtitle lead description-title">MINING</p>
+                                        <p class="mbr-section-subtitle lead description-title mbr-editable-content">MINING</p>
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <p class="mbr-section-text lead">Mining is essentially the process of using your computer to help verify and secure a cryptocurrency network, in our case, it is the Securus network. <br>By doing this, you will be rewarded with some Securus.
-<br><br>Please note: Unfortunately because of some bad people using mining software in malware, most antivirus software will detect the programs below as unsafe.<br><br><a href="https://github.com/fireice-uk/xmr-stak" target="_blank">XMR-Stak</a>
+                                                <p class="mbr-section-text lead mbr-editable-content">Mining is essentially the process of using your computer to help verify and secure a cryptocurrency network, in our case, it is the Securus network. <br>By doing this, you will be rewarded with some Securus.
+<br>Originally Bitcoin was mined and transacted with standard hardware.<br> 
+We want to bring back this basic user experience to the Securus community.<br><br>Please note: Unfortunately because of some bad people using mining software in malware, most antivirus software will detect the programs below as unsafe.<br><br><a href="https://github.com/fireice-uk/xmr-stak" target="_blank">XMR-Stak</a>
 <br>XMR-Stak is a unified miner, which means the same program will be used to mine with both your CPU and your GPU. It will automatically detect your hardware and adjust the settings accordingly.
 <br>
 <br>Please follow this guide to start mining Securus with XMR-Stak.
@@ -270,10 +272,10 @@ You will not be able to spend or send your funds to other people until you set u
                                         <div class="mbr-figure icon-block"><a href="#" class="icon54-v1-money-network mbr-iconfont mbr-iconfont-header5" style="color: rgb(230, 126, 34);"></a></div>
                                     </div>
                                     <div>
-                                        <p class="mbr-section-subtitle lead description-title">MININGPOOL</p>
+                                        <p class="mbr-section-subtitle lead description-title mbr-editable-content">MININGPOOL</p>
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <p class="mbr-section-text lead">Unless you want to solo mine, which is unfeasible for many people, you will need a pool to mine towards. You can use the official <a href="http://pool.securuscoin.org" target="_blank">securus pool</a> to support development.&nbsp;<br>
+                                                <p class="mbr-section-text lead mbr-editable-content">Unless you want to solo mine, which is unfeasible for many people, you will need a pool to mine towards. You can use the official <a href="http://pool.securuscoin.org" target="_blank">securus pool</a> to support development.&nbsp;<br>
 <br>To view a list of pools, check out the <a href="http://explorer.securuscoin" target="_blank">explorer</a></p>
                                             </div>
                                         </div>
@@ -294,10 +296,10 @@ You will not be able to spend or send your funds to other people until you set u
                                         <div class="mbr-figure icon-block"><a href="#" class="etl-icon icon-upload mbr-iconfont mbr-iconfont-header5" style="color: rgb(230, 126, 34);"></a></div>
                                     </div>
                                     <div>
-                                        <p class="mbr-section-subtitle lead description-title">PUBLICNODE / LOCAL DAEMON (SecurusCoind)</p>
+                                        <p class="mbr-section-subtitle lead description-title mbr-editable-content">PUBLICNODE / LOCAL DAEMON (SecurusCoind)</p>
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <p class="mbr-section-text lead">A public node, or public daemon is a computer that a user can connect to safely and sync their wallet without downloading the whole blockchain at home. The node operator  doesn’t know which wallet or who is connecting, and they also can’t see balances or passwords.<br>In the beginning, community members ran public nodes for free. This is a great thing to do for the community, but as with all things that are free, they do have a cost for someone, and can often be congested. Free nodes will still be allowed if someone wants to run one, but you can now set a per-transaction fee quite easily, for people who connect to your node. This guide will help you get a public node set up, and the fee is up to you.<br><br>Free nodes can sometimes be busy because they get lots of users connecting to them. Nodes that charge a fee can sometimes offer faster service because not many are willing to pay a fee to send a transaction. A free market is emerging to allow nodes to set their own prices and let the community use the nodes that fit best for them. Nobody can steal your password or use your information by running a public node, and you will not harm someone else if your node goes down. No worries!<br><br>What you'll need:<br>1. A computer with an IP address that doesn’t change. If you’re running it from home and use cable or DSL internet, you’re probably already set up with a static IP. (Free Amazon servers or Google Cloud servers are perfect for this) <br>2. A Securus wallet to collect your earnings.&nbsp;<br>3. (optional) to get listed the node in the GUI Wallet, you need 10000 SCR<br>contact developer and spend the coins to wallet below<br><strong>SCR1PahF4AN2DCBDE8MbFFTk6ABFiRe2nUNSP6gVhZANFfx2t6P</strong><br><strong>5t8LKi7J2YkeaaJcR7jR4ZVKK2j88PtVmdAG18SwZKeLBUn</strong><br><br></p>
+                                                <p class="mbr-section-text lead mbr-editable-content">A public node, or public daemon is a computer that a user can connect to safely and sync their wallet without downloading the whole blockchain at home. The node operator  doesn’t know which wallet or who is connecting, and they also can’t see balances or passwords.<br>In the beginning, community members ran public nodes for free. This is a great thing to do for the community, but as with all things that are free, they do have a cost for someone, and can often be congested. Free nodes will still be allowed if someone wants to run one, but you can now set a per-transaction fee quite easily, for people who connect to your node. This guide will help you get a public node set up, and the fee is up to you.<br><br>Free nodes can sometimes be busy because they get lots of users connecting to them. Nodes that charge a fee can sometimes offer faster service because not many are willing to pay a fee to send a transaction. A free market is emerging to allow nodes to set their own prices and let the community use the nodes that fit best for them. Nobody can steal your password or use your information by running a public node, and you will not harm someone else if your node goes down. No worries!<br><br>What you'll need:<br>1. A computer with an IP address that doesn’t change. If you’re running it from home and use cable or DSL internet, you’re probably already set up with a static IP. (Free Amazon servers or Google Cloud servers are perfect for this) <br>2. A Securus wallet to collect your earnings.&nbsp;<br>3. (optional) to get listed the node in the GUI Wallet, you need 10000 SCR<br>contact developer and spend the coins to wallet below<br><strong>SCR1PahF4AN2DCBDE8MbFFTk6ABFiRe2nUNSP6gVhZANFfx2t6P</strong><br><strong>5t8LKi7J2YkeaaJcR7jR4ZVKK2j88PtVmdAG18SwZKeLBUn</strong><br><br></p>
                                             </div>
                                         </div>
                                     </div>
@@ -317,10 +319,11 @@ You will not be able to spend or send your funds to other people until you set u
                                         <div class="mbr-figure icon-block"><span class="imind-line-chart2 mbr-iconfont mbr-iconfont-header5" style="color: rgb(230, 126, 34);"></span></div>
                                     </div>
                                     <div>
-                                        <p class="mbr-section-subtitle lead description-title">SECURUS IS A INVESTMENT COIN</p>
+                                        <p class="mbr-section-subtitle lead description-title mbr-editable-content">SECURUS IS A INVESTMENT COIN</p>
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <p class="mbr-section-text lead">this is your chance buy scr in lower price</p>
+                                                <p class="mbr-section-text lead mbr-editable-content">We grow steady with our tasks - so the coins value will do as well.<br>
+Take the journey with us and grab your coins on one of our exchanges</p>
                                             </div>
                                         </div>
                                     </div>
@@ -340,10 +343,10 @@ You will not be able to spend or send your funds to other people until you set u
                                         <div class="mbr-figure icon-block"><a href="#" class="etl-icon icon-global mbr-iconfont mbr-iconfont-header5" style="color: rgb(230, 126, 34);"></a></div>
                                     </div>
                                     <div>
-                                        <p class="mbr-section-subtitle lead description-title">CONTACT FORMS</p>
+                                        <p class="mbr-section-subtitle lead description-title mbr-editable-content">CONTACT FORMS</p>
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <p class="mbr-section-text lead">Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.</p>
+                                                <p class="mbr-section-text lead mbr-editable-content">Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -360,14 +363,9 @@ You will not be able to spend or send your funds to other people until you set u
         </div>
     </div>
 
-</section>
+</section></div>
 
-<section class="mbr-section progressbar progressbar1" id="progress-bar4-9" data-rv-view="9" style="background-image: url(assets/images/undraw-developer-activity-bv83.svg); padding-top: 80px; padding-bottom: 80px;">
-
-    <div class="mbr-overlay" style="opacity: 0.85; background-color: rgb(51, 51, 51);">
-    </div>
-
-<?php 
+<div id="progress-bar4-9"><?php 
             $ch = curl_init();
 
 curl_setopt($ch, CURLOPT_URL, 'https://raw.githubusercontent.com/JOXW/develop/master/progress');
@@ -380,19 +378,25 @@ if (curl_errno($ch)) {
 curl_close($ch);
             $ok = json_decode($info,true);
             ?>
+<section class="mbr-section progressbar progressbar1 mbr-after-navbar" data-rv-view="9" style="background-image: url(assets/images/undraw-developer-activity-bv83.svg); padding-top: 80px; padding-bottom: 80px;">
+
+    <div class="mbr-overlay" style="opacity: 0.85; background-color: rgb(51, 51, 51);">
+    </div>
+
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1">
 
               <div class="col-lg-6 col-xs-12 margin-top-20">
-                <h3 class="mbr-section-title display-4">Development</h3>
-                <p class="mbr-section-text lead">Securus developers are working hard on some new Steps</p>
+                <h3 class="mbr-section-title display-4 mbr-editable-content">Development</h3>
+                <p class="mbr-section-text lead mbr-editable-content">Securus developers are working hard on some new Steps</p>
               </div>
 
               <div class="col-lg-6 col-xs-12">
                 <div class="progress1">
 
-                  <p class="mbr-section-subtitle display-3"><?php echo $ok["dev"][0]["titel"]; ?></p>
+                  <p class="mbr-section-subtitle display-3 mbr-editable-content"><?php echo $ok["dev"][0]["titel"]; ?></p>
                         
                   <div class="progressbar-wrap">
 
@@ -406,7 +410,7 @@ curl_close($ch);
 
                 <div class="progress2">
 
-                  <p class="mbr-section-subtitle display-3"><?php echo $ok["dev"][1]["titel"]; ?></p>
+                  <p class="mbr-section-subtitle display-3 mbr-editable-content"><?php echo $ok["dev"][1]["titel"]; ?></p>
                         
                   <div class="progressbar-wrap">
 
@@ -420,7 +424,7 @@ curl_close($ch);
 
                 <div class="progress3">
 
-                  <p class="mbr-section-subtitle display-3"><?php echo $ok["dev"][2]["titel"]; ?></p>
+                  <p class="mbr-section-subtitle display-3 mbr-editable-content"><?php echo $ok["dev"][2]["titel"]; ?></p>
                         
                   <div class="progressbar-wrap">
 
@@ -434,13 +438,13 @@ curl_close($ch);
 
                 <div class="progress4">
 
-                  <p class="mbr-section-subtitle display-3"><?php echo $ok["dev"][3]["titel"]; ?></p>
+                  <p class="mbr-section-subtitle display-3 mbr-editable-content"><?php echo $ok["dev"][3]["titel"]; ?></p>
                         
                   <div class="progressbar-wrap">
 
-                    <progress class="progress progress-primary" max="100" value="<?php echo $ok["dev"][2]["amount"]; ?>">
+                    <progress class="progress progress-primary" max="100" value="<?php echo $ok["dev"][3]["amount"]; ?>">
                     </progress>
-                    <div class="progressbar-number" style="left: <?php echo $ok["dev"][2]["amount"]; ?>%;"><?php echo $ok["dev"][2]["amount"]; ?></div>
+                    <div class="progressbar-number" style="left: <?php echo $ok["dev"][3]["amount"]; ?>%;"><?php echo $ok["dev"][3]["amount"]; ?></div>
 
                   </div>
                   
@@ -451,7 +455,7 @@ curl_close($ch);
         </div>
     </div>
 
-</section>
+</section></div>
 
 <section class="mbr-section mbr-section-hero features16" id="features16-c" data-rv-view="12" style="background-color: rgb(221, 221, 221); padding-top: 80px; padding-bottom: 80px;">
 
@@ -564,8 +568,7 @@ curl_close($ch);
                     <span class="iconBackground" style="background-color: rgb(236, 240, 241);"><span class="icon"></span></span>
                     <div class="timeline-panel" style="background-color: rgb(236, 240, 241);">
                         <h4 class="h-black text-right">1. Blockchain testnet &amp; launch</h4>
-                        <p class="mbr-section-text-gray lead h-black">In the beginning, we were command line only
-<br>- Solo Miner
+                        <p class="mbr-section-text-gray lead h-black">we built that command line solutions:&nbsp;<br>- Solo Miner
 <br>- SecurusWallet 
 <br>- SecurusCoin (Node)</p>
                     </div>
@@ -714,7 +717,7 @@ curl_close($ch);
 <div>
     <p3 class="display-3"><strong>Support development:</strong></p3><br><br>
     <strong>DEV Securus Wallet - development bounty and public node listing</strong> <br>
-      <img src="http://securuscoin.org/assets/images/coinlogo-800x800.png" height="40" width="40">
+      <img src="http://securuscoin.org/assets/images/coin-final-800x800.png" height="40" width="40">
     <p2 class="display-8">SCR1PahF4AN2DCBDE8MbFFTk6ABFiRe2nUNSP6gVhZANFfx2t<br>6P5t8LKi7J2YkeaaJcR7jR4ZVKK2j88PtVmdAG18SwZKeLBUn</p2>
     <br><br>
     <strong>DEV new exchanges and marketing support - get a VIP rank in discord</strong> <br>
