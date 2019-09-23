@@ -179,7 +179,7 @@ curl_close($ch);
             <div class="row">
                 <div class="col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center">
 
-					<h1 class="mbr-section-title display-1 mbr-editable-content"><br>Next Update Argon2id initialisation at block 300 k</h1>
+					<h1 class="mbr-section-title display-1 mbr-editable-content"><br></h1>
                     <h1 class="mbr-section-title display-1 mbr-editable-content"><br>What is Securus?</h1>
 
                     <p class="mbr-section-text lead header-text mbr-editable-content">Securus is a fast, easy and private cryptocurrency which allows you to send money to friends and businesses.
