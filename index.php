@@ -95,7 +95,7 @@
 
                     <h1 class="mbr-section-title display-1 mbr-editable-content" style="font-size: 48px;">SECURUS</h1>
 
-                    <div class="mbr-section-btn"><a class="btn btn-lg btn-danger mbr-editable-button" href="https://github.com/JOXW/securuscoin/releases" target="_blank"><span class="icon54-v1-network-add mbr-iconfont mbr-iconfont-btn" style="font-size: 37px;"></span>corefiles</a> <a class="btn btn-lg btn-danger mbr-editable-button" href="https://github.com/JOXW/SecurusCrossWallet/releases" target="_blank"><span class="imind-wallet-2 mbr-iconfont mbr-iconfont-btn" style="font-size: 37px;"></span>GUI WALLET</a> <a class="btn btn-lg btn-danger mbr-editable-button" href="exchange.html"><span class="icon54-v1-line-chart1 mbr-iconfont mbr-iconfont-btn" style="font-size: 36px;"></span>INVESTment</a></div>
+                    <div class="mbr-section-btn"><a class="btn btn-lg btn-danger mbr-editable-button" href="https://github.com/JOXW/securuscoin/releases" target="_blank"><span class="icon54-v1-network-add mbr-iconfont mbr-iconfont-btn" style="font-size: 37px;"></span>corefiles</a> <a class="btn btn-lg btn-danger mbr-editable-button" href="https://github.com/JOXW/securus-wallet/releases" target="_blank"><span class="imind-wallet-2 mbr-iconfont mbr-iconfont-btn" style="font-size: 37px;"></span>GUI WALLET</a> <a class="btn btn-lg btn-danger mbr-editable-button" href="exchange.html"><span class="icon54-v1-line-chart1 mbr-iconfont mbr-iconfont-btn" style="font-size: 36px;"></span>INVESTment</a></div>
 
                      <div class="mbr-figure image-size" style="width: 23%; font-size: 57.5px;"><img src="assets/images/coin-final-800x800.png"></div>
                     <br><br>
