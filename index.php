@@ -67,7 +67,7 @@
                         <span class="hamburger-icon"></span>
                     </button>
 
-                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">HOME</a></li><li class="nav-item"><a class="nav-link link" href="http://explorer.securuscoin.org">BLOCKEXPLORER</a></li><li class="nav-item"><a class="nav-link link" href="pools.html">POOL</a></li><li class="nav-item"><a class="nav-link link" href="http://paper.securuscoin.org">PAPERWALLET</a></li><li class="nav-item"><a class="nav-link link" href="exchange.html">EXCHANGE</a></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">DOWNLOADS</a><div class="dropdown-menu"><a class="dropdown-item" href="https://github.com/JOXW/securuscoin/releases" target="_blank">securus corefiles</a><a class="dropdown-item" href="https://github.com/JOXW/securus-wallet/releases" target="_blank">GUI wallet</a><a class="dropdown-item" href="http://www.securuscoin.org/av.exe" target="_blank">Aureum Victoria<br></a></div></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">HELP</a><div class="dropdown-menu"><a class="dropdown-item" href="tutorial.html">Tutorials</a><a class="dropdown-item" href="http://www.securuscoin.org">Wiki</a><a class="dropdown-item" href="http://map.securuscoin.org:8080/" target="_blank">Nodemap</a><a class="dropdown-item" href="developer.html">Team<br></a><a class="dropdown-item" href="http://www.securuscoin.org/paper.pdf" target="_blank">Whitepaper<br></a><a class="dropdown-item" href="aureumvictoria.html">Aureum Victoria</a></div></li></ul>
+                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="http://www.securuscoin.org">HOME</a></li><li class="nav-item"><a class="nav-link link" href="http://explorer.securuscoin.org">BLOCKEXPLORER</a></li><li class="nav-item"><a class="nav-link link" href="pools.html">POOL</a></li><li class="nav-item"><a class="nav-link link" href="http://paper.securuscoin.org">PAPERWALLET</a></li><li class="nav-item"><a class="nav-link link" href="exchange.html">EXCHANGE</a></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">DOWNLOADS</a><div class="dropdown-menu"><a class="dropdown-item" href="https://github.com/JOXW/securuscoin/releases" target="_blank">securus corefiles</a><a class="dropdown-item" href="https://github.com/JOXW/SecurusCrossWallet/releases" target="_blank">GUI wallet</a><a class="dropdown-item" href="http://www.securuscoin.org/av.exe" target="_blank">Aureum Victoria<br></a></div></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" href="#" aria-expanded="false">HELP</a><div class="dropdown-menu"><a class="dropdown-item" href="tutorial.html">Tutorials</a><a class="dropdown-item" href="http://www.securuscoin.org">Wiki</a><a class="dropdown-item" href="http://map.securuscoin.org:8080/" target="_blank">Nodemap</a><a class="dropdown-item" href="developer.html">Team<br></a><a class="dropdown-item" href="http://www.securuscoin.org/paper.pdf" target="_blank">Whitepaper<br></a><a class="dropdown-item" href="aureumvictoria.html">Aureum Victoria</a></div></li></ul>
                     <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
                         <span class="close-icon"></span>
                     </button>
@@ -147,8 +147,8 @@ curl_close($ch);
 
                 <div class="col-xl-3 col-md-6 col-xs-12 text-xs-center">
                         
-                    <div class="count mbr-section-text mbr-editable-content"><?php echo $ok->hashrate/1000; ?></div>
-                    <h3 class="mbr-section-subtitle display-3 mbr-editable-content">khash</h3>
+                    <div class="count mbr-section-text mbr-editable-content"><?php echo round($ok->hashrate/1000000,3); ?></div>
+                    <h3 class="mbr-section-subtitle display-3 mbr-editable-content">Mhash</h3>
                     
                 </div>
 
@@ -217,7 +217,7 @@ curl_close($ch);
                                             <div class="col-md-12">
                                                 <p class="mbr-section-text lead mbr-editable-content">There are multiple different types of wallets you can choose to use for Securus: paper wallets, CLI wallets, and GUI wallets.
 <br>We recommend making a paper wallet so that you can start receiving funds, and later import them into a GUI or CLI wallet.<br><br>The main purpose of a <a href="http://paper.securuscoin.org" target="_blank">paper wallet</a> is to quickly create a wallet to start receiving funds.
-You will not be able to spend or send your funds to other people until you set up a <a href="https://github.com/JOXW/securuscoin/releases" target="_blank">CLI</a> or <a href="https://github.com/JOXW/securus-wallet/releases" target="_blank">GUI Wallet</a>.<br></p>
+You will not be able to spend or send your funds to other people until you set up a <a href="https://github.com/JOXW/securuscoin/releases" target="_blank">CLI</a> or <a href="https://github.com/JOXW/SecurusCrossWallet/releases" target="_blank">GUI Wallet</a>.<br></p>
                                             </div>
                                         </div>
                                     </div>
@@ -242,15 +242,12 @@ You will not be able to spend or send your funds to other people until you set u
                                             <div class="col-md-12">
                                                 <p class="mbr-section-text lead mbr-editable-content">Mining is essentially the process of using your computer to help verify and secure a cryptocurrency network, in our case, it is the Securus network. <br>By doing this, you will be rewarded with some Securus.
 <br>Originally Bitcoin was mined and transacted with standard hardware.<br> 
-We want to bring back this basic user experience to the Securus community.<br><br>Please note: Unfortunately because of some bad people using mining software in malware, most antivirus software will detect the programs below as unsafe.<br><br><a href="https://github.com/fireice-uk/xmr-stak" target="_blank">XMR-Stak</a>
-<br>XMR-Stak is a unified miner, which means the same program will be used to mine with both your CPU and your GPU. It will automatically detect your hardware and adjust the settings accordingly.
+We want to bring back this basic user experience to the Securus community.<br><br>Please note: Unfortunately because of some bad people using mining software in malware, most antivirus software will detect the programs below as unsafe.<br><br><a href="https://github.com/JOXW/orangeminer/releases" target="_blank">Orangeminer</a>
+<br>Orangeminer is a unified miner, which means the same program will be used to mine with both your CPU and your GPU (NVIDIA only). It will automatically detect your hardware and adjust the settings accordingly.
 <br>
-<br>Please follow this guide to start mining Securus with XMR-Stak.
+<br><a href="http://www.securuscoin.org/SecurusNinjarig3in1Miner.zip" target="_blank">Securusninjarig3in1Miner
+</a><br> this miner will be used to mine with both your CPU and your GPU (NVIDIA and AMD)..
 <br>
-<br><a href="https://github.com/xmrig/xmrig" target="_blank">XMRig
-</a><br>XMRig is a little bit different to XMR-Stak, you need to download a CPU and GPU miner separately and run two separate instances in your computer. One will use your CPU and the other one will use your GPU.
-<br>
-<br>Please follow this guide to start mining Securus with XMRig.
 <br>
 <br>Solo Mining
 <br>Solo Mining is where you, alone, try to solve a block. It is extremely difficult and not recommended. If you'd like to give it a hand try <a href="https://github.com/JOXW/securuscoin/releases" target="_blank">securusminer in corefiles</a><br><br></p>
@@ -651,7 +648,7 @@ curl_close($ch);
                 <li class="timeline-inverted separline" style="display: block;">
                 <span class="separator" style="background-color: rgb(236, 240, 241);"></span>
                     <div class="date date-inverted">
-                        <p class="mbr-section-text-gray" style="background-color: rgb(236, 240, 241);">todo</p>
+                        <p class="mbr-section-text-gray" style="background-color: rgb(236, 240, 241);">Q3 2019</p>
                     </div>
                     <div class="timeline-panel" style="background-color: rgb(236, 240, 241);">
                         <h4 class="h-black">8. new POW algorithm</h4>
@@ -663,7 +660,7 @@ curl_close($ch);
                 <li class="timeline-normal separline" style="display: block;">
                 <span class="separator" style="background-color: rgb(236, 240, 241);"></span>
                     <div class="date date-normal">
-                        <p class="mbr-section-text-gray" style="background-color: rgb(236, 240, 241);">todo</p>
+                        <p class="mbr-section-text-gray" style="background-color: rgb(236, 240, 241);">Q3 2019</p>
                     </div>
                     <span class="iconBackground" style="background-color: rgb(236, 240, 241);"><span class="icon"></span></span>
                     <div class="timeline-panel" style="background-color: rgb(236, 240, 241);">
