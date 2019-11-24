@@ -714,23 +714,43 @@ curl_close($ch);
 
 <div>
     <p3 class="display-3"><strong>Support development:</strong></p3><br><br>
-    <strong>DEV Securus Wallet - development bounty and public node listing</strong> <br>
+    <strong>DEV donate - public node listing</strong> <br>
       <img src="http://securuscoin.org/assets/images/coin-final-800x800.png" height="40" width="40">
-    <p2 class="display-8">SCR1PahF4AN2DCBDE8MbFFTk6ABFiRe2nUNSP6gVhZANFfx2t<br>6P5t8LKi7J2YkeaaJcR7jR4ZVKK2j88PtVmdAG18SwZKeLBUn</p2>
-    <br><br>
-    <strong>DEV new exchanges and marketing support - get a VIP rank in discord</strong> <br>
+    <p2 class="display-8">SCR1PahF4AN2DCBDE8MbFFTk6ABFiRe2nUNSP6gVhZANFfx2t6P5t8LKi7J2YkeaaJcR7jR4ZVKK2j88PtVmdAG18SwZKeLBUn</p2>
+	<br>
+	<img src="https://www.blockchaincenter.net/wp-content/uploads/logos/btc.png" height="40" width="40">
+    <p2 class="display-8"> bc1qd6t8ktfm3uehnzjtzrcf3jjgqqk8xl2k4k5a2r</p2>
+    <img src="https://static.coindesk.com/wp-content/uploads/2014/02/Litecoin-logo-e1517247177826.png" height="40" width="40">
+    <p2 class="display-8"> ltc1q96c94c223jrnnj7dmvk67u5d494369edfq4yfj</p2>
+	<img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Ethereum_logo.svg" height="40" width="40">
+    <p2 class="display-8">0x4676D8eCD9264a4C5Dc90f664F30921A47Cba55f</p2>
+    
+	
+	
+<hr>
+    <strong>MARKETING donate</strong> <br>
     <img src="https://www.blockchaincenter.net/wp-content/uploads/logos/btc.png" height="40" width="40">
     <p2 class="display-8">3AGjbLp5sxag7kD6Yk8kctNQxTgWH54mA3</p2>
-    <br><br>
+    
     
     <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Ethereum_logo.svg" height="40" width="40">
     <p2 class="display-8">0x1c815a39c228c5fee0d9c4e60fb73e32b8776c42</p2>
-    <br><br>
-   <strong>DEV support</strong> <br>
+  
+<hr>
+    <strong>COMMUNITY support donate</strong> <br>
+	 
+      <img src="http://securuscoin.org/assets/images/coin-final-800x800.png" height="40" width="40">
+    <p2 class="display-8">SCR1PL4iN3uGQveqMffFyAJAiXfBT9z5sbmoF5abU3vmJbBtLzoCiQzFtWf6TB6nkGVNWiGgqWwWXK6DqSHbdgM44JuWgoTrnK</p2>
+	<br>
+    <img src="https://www.blockchaincenter.net/wp-content/uploads/logos/btc.png" height="40" width="40">
+    <p2 class="display-8">15EXBNcCYrg2p91r6N8z8HTg8ndDZcHLFT</p2>
     
     
-    <img src="https://static.coindesk.com/wp-content/uploads/2014/02/Litecoin-logo-e1517247177826.png" height="40" width="40">
-    <p2 class="display-8">LdHrYCi1XYbWzQY8dU99viLjV4ceUsporR</p2>
+   <img src="https://static.coindesk.com/wp-content/uploads/2014/02/Litecoin-logo-e1517247177826.png" height="40" width="40">
+    <p2 class="display-8"> LazRLeteNPvE4c8w4JeBe9zARHzhVWfv5o</p2>
+
+
+   
     
 </div></div>
 
